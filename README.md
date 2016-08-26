@@ -27,7 +27,7 @@ make ubuntu easy use
 5. 再次执行安装命令：`sudo dpkg -i google-chrome-stable_current_amd64.deb`   
 6. 安装完成   
 
-- 安装网易云音乐
+>- 安装网易云音乐
 - 安装搜狗输入法
 
 
