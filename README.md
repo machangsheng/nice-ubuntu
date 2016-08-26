@@ -21,7 +21,7 @@ make ubuntu easy use
 
 - 安装谷歌浏览器
 
-1. 下载命令：`wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`   
+>>1. 下载命令：`wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`   
 2. 安装命令： `sudo dpkg -i google-chrome-stable_current_amd64.deb`   
 3. 因为软件包依赖关系不满足发生错误，执行该命令：`sudo apt-get install -f`   
 4. 输入***`y`***确定执行   
