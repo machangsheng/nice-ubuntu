@@ -4,6 +4,23 @@ make ubuntu easy use
 
 #ubuntu安装后该做什么事？
 
+>####必做
+>>1. 打开软件更新器，联网下载更新然后重启   
+2. 终端执行`sudo gedit /etc/resolv.conf`更改以后执行`sudo apt-get update`
+3. windows和ubuntu时间同步`sudo timedatectl set-local-rtc 1`
+4. 点击图标最小化`gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
+`  
+
+>####美化
+>>1. 终端执行`sudo apt-get install unity-tweak-tool`
+2. 终端执行`mkdir .themes`,将解压后的图标包放进***themes***文件夹
+3. 安装主题   
+ 
+>####安装软件
+>>1. 安装谷歌
+
+
+
 ###Ubuntu 如何开启 SSH ?
 ####1、安装SS
 >`sudo apt-get install openssh-client`   # 用来登录别的机器的SSH  
@@ -17,47 +34,3 @@ make ubuntu easy use
 
 ####4、登录下试试
 >`ssh username @192.168.137.100`  # username 为 192.168.137.100 机器上的用户，然后输入密码确认即可
-
-``` c
-//写个C语言
-#include <stdio.h>
-int main (void)
-{
-  printf ("hello,world");
-  return 0;
-}
-```
-
-#标题1
-##标题2
-###标题3
-####标题4
-#####标题5
-######标题6
-
->无序列表
->>- 文本一
-- 文本二
-- 文本三
- 
-
-****
-
->有序列表
->>1. 文本一
-2. 文本二
-3. 文本三
-
-
-###链接
-[百度](http://www.baidu.com)
-![](http://img.voidcn.com/vcimg/000/001/489/340_b66_519.jpg)
-
-
-###表格
-|1|2|3|
-|:--|:--|:--|
-|4|5|6|
-|7|8|9|
-
-
