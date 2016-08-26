@@ -18,7 +18,6 @@ make ubuntu easy use
 3. 安装主题   
  
 >####安装软件
-
 - 安装谷歌浏览器
 
 >>1. 下载命令：`wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`   
