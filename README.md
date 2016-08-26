@@ -3,7 +3,7 @@ make ubuntu easy use
 
 #Ubuntu 如何开启 SSH ?
 ##1、安装SS
->'sudo apt-get install openssh-client'# 用来登录别的机器的SSH<br>
+>'sudo apt-get install openssh-client'# 用来登录别的机器的SSH
 'sudo apt-get install openssh-server'# 用来开放本机的SSH服务
 
 ##2、启动SSH
