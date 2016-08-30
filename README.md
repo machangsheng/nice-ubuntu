@@ -16,7 +16,7 @@ make ubuntu easy use
 >>1. 终端执行`sudo apt-get install unity-tweak-tool`
 2. 终端执行`mkdir .themes`,将解压后的图标包放进***themes***文件夹,在***unity-tweak-tool***中选择该主题
 3. ultra-flat主题的图标   
->sudo add-apt-repository ppa:noobslab/icons   
+>>sudo add-apt-repository ppa:noobslab/icons   
 sudo apt-get update   
 sudo apt-get install ultra-flat-icons-orange
  
